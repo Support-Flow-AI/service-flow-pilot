@@ -17,16 +17,16 @@ export const Navigation = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <a href="/#features" className="text-muted-foreground hover:text-foreground transition-colors">
+            <a href="/features" className="text-muted-foreground hover:text-foreground transition-colors">
               Features
             </a>
-            <a href="/#about" className="text-muted-foreground hover:text-foreground transition-colors">
+            <a href="/how-it-works" className="text-muted-foreground hover:text-foreground transition-colors">
+              How it Works
+            </a>
+            <a href="/about" className="text-muted-foreground hover:text-foreground transition-colors">
               About
             </a>
-            {/* <a href="/#pricing" className="text-muted-foreground hover:text-foreground transition-colors">
-              Pricing
-            </a> */}
-            <a href="/#contact" className="text-muted-foreground hover:text-foreground transition-colors">
+            <a href="/contact" className="text-muted-foreground hover:text-foreground transition-colors">
               Contact
             </a>
           </div>
@@ -57,11 +57,11 @@ export const Navigation = () => {
               <a href="/features" className="text-muted-foreground hover:text-foreground transition-colors">
                 Features
               </a>
+              <a href="/how-it-works" className="text-muted-foreground hover:text-foreground transition-colors">
+                How it Works
+              </a>
               <a href="/about" className="text-muted-foreground hover:text-foreground transition-colors">
                 About
-              </a>
-              <a href="/#pricing" className="text-muted-foreground hover:text-foreground transition-colors">
-                Pricing
               </a>
               <a href="/contact" className="text-muted-foreground hover:text-foreground transition-colors">
                 Contact
